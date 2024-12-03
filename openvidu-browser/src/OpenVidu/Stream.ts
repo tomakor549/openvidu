@@ -538,7 +538,7 @@ export class Stream {
      * @returns Native RTCPeerConnection Web API object
      */
     getRTCPeerConnection(): RTCPeerConnection {
-        return this.webRtcPeer.pc;
+        return this.webRtcPeer?.pc;
     }
 
     /**
